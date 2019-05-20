@@ -55,13 +55,6 @@
     [self setupRegisterButtonWithCase:1];
     
     [self makeConstraints_1];
-    [self testEnter];
-}
-
--(void)testEnter
-{
-    [self.emailField setText:@"Vova@gmail.com"];
-    [self.passwordField setText:@"Vova@vovavova"];
 }
 
 -(void)prepareRegisterUI
